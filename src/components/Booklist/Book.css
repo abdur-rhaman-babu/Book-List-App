@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.Booklist-container{
+    width:800px;
+    margin:0 auto;
+    margin-top:15px;
+}
+
+.booklist-heading{
+    text-align:center;
+}
+.main-content{
+   
+    display:flex;
+    align-items:center;
+    text-align:left;
+    gap:10px;
+    justify-content:center;
+}
+.form-content{
+    background-color:#dfe6e9;
+    padding:10px;
+    border-radius:5px;
+}
+
+.view-content{
+    background:#dfe6e9;
+    padding:20px 20px 20px 20px;
+    text-align:center;
+    position:relative;
+}
+
+.single-form{
+    border: none;
+    margin-bottom:10px;
+    font-size:20px;
+    border-radius:2px;
+    margin-left:5px;
+    padding:0 5px;
+    outline:0;
+    width:97%;
+}
+
+label{
+    font-size:15px;
+    font-weight:700;
+}
+
+
+.res-btn{
+    border:none;
+    background:#d63031;
+    color:#fff;
+    padding:0 10px;
+    width:100%;
+}
+
+.submit-btn{
+    border:none;
+    padding:0 100px;
+    background:#05c46b;
+    font-weight:700;
+}
+
+
+@media screen and (max-width: 768px) {
+    .main-content{
+        width:45%;
+      display: block;
+      flex-direction:column;
+      margin: 15px;
+    }
+    .res-btn{
+        width:320px;
+        margin-top:20px;
+    }
+
+    .submit-btn{
+        width:100%;
+    }
+
+    .single-form{
+        width:98%;
+    }
+
+    .view-content{
+        margin-top:15px;
+    }
+    .booklist-heading{
+      text-align:center;
+      width:390px;
+      margin-top:20px;
+    }
+    
+  }
